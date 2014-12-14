@@ -1,0 +1,269 @@
+/*
+Theme Name: Everything Breezy
+Theme URI: http://www.everythingbreezy.com
+Description: Personal theme for Everything Breezy blog
+ 
+Author: Mike Meyerson & Jack Cross
+Version: 1.0
+Tags: vector, beach, music, widgets, sidebar
+*/
+
+@font-face {
+	font-family:'Aller';
+	src: url('fonts/Aller_Lt.ttf');
+}
+
+html, body {
+	margin:0;
+	height:100%;
+	/*background-image: url("<?php bloginfo('stylesheet_directory'); ?>/images/background.jpg");*/
+	background: url('images/background.jpg') no-repeat top left;
+	background-size:1700px;
+	background-position:center;
+	background-attachment:fixed;
+}
+
+#nav_bar_list {
+    list-style-type: none;
+    padding-left:0;
+    margin:0;
+    height:40px;
+}
+
+p {
+	font-family:Aller;
+	color:#444444;
+}
+
+#header {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	height:230px;
+}
+
+#logo_wrapper {
+	padding-top:15px;
+	height:139px;
+}
+
+#logo_button {
+	float:left;
+	padding-top:15px;
+	padding-left:2px;
+}
+
+#nav_bar {
+	float:right;
+	font-family: 'Oswald', sans-serif;
+	color:#ffffff;
+	font-weight:300;
+	height:27px;
+	padding-left:0;
+	padding-top:15px;
+}
+
+.nav_button {
+	display:inline-block;
+	font-size:16px;
+	letter-spacing:1px;
+	padding-left:45px;
+	height:27px;
+	line-height:27px;
+}
+
+#search-box {
+	display:inline-block;
+	width: 150px;
+	padding-right:0px;
+	margin-right:0px;
+	padding-left:45px;
+}
+
+#search-box input[type=text] {
+	width: 120px;
+	height: 24px;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:16px;
+	background: url('images/search.png') no-repeat;
+	background-position:100% 50%;
+	background-color:transparent;
+	padding-right: 26px;
+	border: 0px;
+	border-bottom:1px solid #ffffff;
+	color:#ffffff;
+	outline:none;
+
+}
+
+#top_divider {
+	width:1000px;
+	height:15px;
+	margin-top:60px;
+	background-color:#ffffff;
+}
+
+/*************
+     BODY
+*************/
+
+#wrapper {
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+}
+
+#content {
+	width:735px;
+	float:left;
+    padding:5px;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+.post {
+	margin-bottom:15px;
+	position:relative;
+}
+
+.post-title {
+	font-family:'Oswald', sans-serif;
+	font-size:28px;
+	color:#fed31a
+	font-weight:300;
+	letter-spacing:2px;
+	margin-bottom:10px;
+}
+
+.post-image {
+	position:absolute;
+	float:left;
+	height:175px;
+	width:auto;
+}
+
+.post-text {
+	position:absolute;
+	float:right;
+	right:15px;
+	margin-left:205px;
+	font-size:16px;
+	line-height:22px;
+}
+
+.post-body {
+	background:#ffffff;
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.8);
+	padding:15px;
+	padding-left:15px;
+	padding-right:15px;
+	height:175px;
+}
+
+a.title-link {
+	color:#fed31a;
+	text-decoration:none;
+	font-weight:300;
+}
+
+a.more-link {
+	position:absolute;
+	font-family:'Oswald', sans-serif;
+	font-size:22px;
+	color:#8f8f8f;
+	text-decoration:none;
+	font-weight:300;
+	bottom:15px;
+	right:15px;
+	letter-spacing:2px;
+}
+
+a.category-link {
+	font-family:Aller;
+	font-size:12px;
+	color:#8f8f8f;
+	text-decoration:none;
+}
+
+.post-tags {
+	position:absolute;
+	top:150px;
+	margin-left:190px;
+	font-family:Aller;
+	font-size:12px;
+	color:#8f8f8f;
+}
+
+.post-details {
+	position:absolute;
+	margin-left:190px;
+	font-family:Aller;
+	font-size:12px;
+	color:#8f8f8f;
+	bottom:15px;
+}
+
+#sidebar {
+	position:relative;
+	width:235px;
+	float:right;
+	margin-left:15px;
+	margin-bottom:15px;
+    margin-top:15px;	
+}
+
+.sidebar-title {
+	font-family:'Oswald', sans-serif;
+	font-size:24px;
+	color:#8f8f8f;
+	font-weight:300;
+	letter-spacing:2px;
+}
+
+.sidebar-box {
+	background:#ffffff;
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.8);
+	padding:15px;
+	margin-bottom:15px;
+}
+
+.textwidget {
+	margin-top:15px;
+	font-size:15px;
+	font-family:Aller;
+	line-height:20px;
+	color:#444444;
+}
+
+.textwidget ul {
+	list-style-type:disc;
+	padding-left: 15px
+}
+
+.spacer {
+	clear:both;
+	display:block;
+}
+
+
+#footer {
+	font-family:'Oswald', sans-serif;
+	font-size:16px;
+	color:#ffffff;
+	font-weight:300;
+	text-align:center;
+}
+
+#bottom_divider {
+	width:1000px;
+	height:15px;
+	margin-top:60px;
+	background-color:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:5px;
+}
